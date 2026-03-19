@@ -1,28 +1,5 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-19T14:31:59.155640254+00:00",
-  "tools": [
-    {
-      "id": "py-converter",
-      "name": "PyConverter",
-      "description": "Universal cross-platform file converter (images, documents, data, audio, video, PDF tools)",
-      "category": "Utilities",
-      "icon": "icon.png",
-      "repo": "Alexys829/py-converter",
-      "author": "Alexys829",
-      "platforms": [
-        "linux",
-        "windows"
-      ],
-      "asset_patterns": {
-        "windows": "PyConverter-{version}-windows-x86_64.exe",
-        "linux": "PyConverter-{version}-linux-x86_64.AppImage"
-      },
-      "binary_name": {
-        "linux": "Py-converter.AppImage",
-        "windows": "Py-converter.exe"
-      },
-      "install_type": {}
-    }
-  ]
+  "updated_at": "2026-03-19T14:40:49.786342436+00:00",
+  "tools": []
 }
