@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-19T16:35:27.106853+00:00",
+  "updated_at": "2026-03-19T19:44:49.835315985+00:00",
   "tools": [
     {
       "id": "py-converter",
@@ -19,8 +19,8 @@
         "linux": "PyConverter-{version}-linux-x86_64.AppImage"
       },
       "binary_name": {
-        "windows": "Py-converter.exe",
-        "linux": "Py-converter.AppImage"
+        "linux": "Py-converter.AppImage",
+        "windows": "Py-converter.exe"
       },
       "install_type": {}
     },
@@ -86,6 +86,28 @@
       "install_type": {
         "windows": "archive"
       }
+    },
+    {
+      "id": "py-converter-v2",
+      "name": "PyConverter2",
+      "description": "Universal file converter (Tauri + SolidJS + Python FastAPI)",
+      "category": "Utilities",
+      "icon": "icon.png",
+      "repo": "Alexys829/py-converter-v2",
+      "author": "Alexys829",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "asset_patterns": {
+        "linux": "PyConverter_{version}_amd64.AppImage",
+        "windows": "PyConverter_{version}_x64-setup.exe"
+      },
+      "binary_name": {
+        "windows": "Py-converter-v2.exe",
+        "linux": "Py-converter-v2.AppImage"
+      },
+      "install_type": {}
     }
   ]
 }
