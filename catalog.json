@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-19T16:32:41.077045400+00:00",
+  "updated_at": "2026-03-19T16:32:56.629899800+00:00",
   "tools": [
     {
       "id": "py-converter",
@@ -15,19 +15,19 @@
         "windows"
       ],
       "asset_patterns": {
-        "windows": "PyConverter-{version}-windows-x86_64.exe",
-        "linux": "PyConverter-{version}-linux-x86_64.AppImage"
+        "linux": "PyConverter-{version}-linux-x86_64.AppImage",
+        "windows": "PyConverter-{version}-windows-x86_64.exe"
       },
       "binary_name": {
-        "linux": "Py-converter.AppImage",
-        "windows": "Py-converter.exe"
+        "windows": "Py-converter.exe",
+        "linux": "Py-converter.AppImage"
       },
       "install_type": {}
     },
     {
       "id": "pyab",
       "name": "Pyab",
-      "description": "Game save backup manager for Windows — automatic backups, file monitoring, screenshot capture, and one-click restore.",
+      "description": "Game save backup manager for Windows. Automatic backups, file monitoring, and one-click restore.",
       "category": "Utilities",
       "icon": "icon.png",
       "repo": "ArcademMan/Pyab",
