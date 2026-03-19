@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-19T16:27:52.745864300+00:00",
+  "updated_at": "2026-03-19T16:32:41.077045400+00:00",
   "tools": [
     {
       "id": "py-converter",
@@ -40,6 +40,27 @@
       },
       "binary_name": {
         "windows": "Pyab.exe"
+      },
+      "install_type": {
+        "windows": "innosetup"
+      }
+    },
+    {
+      "id": "pygate",
+      "name": "PyGate",
+      "description": "Network toolkit for Windows. DNS manager, port scanner, IPv4 config, hosts editor, network monitor, WiFi analyzer.",
+      "category": "Utilities",
+      "icon": "icon.png",
+      "repo": "ArcademMan/PyGate",
+      "author": "ArcademMan",
+      "platforms": [
+        "windows"
+      ],
+      "asset_patterns": {
+        "windows": "PyGate_Setup_1.0.0.exe"
+      },
+      "binary_name": {
+        "windows": "Pygate.exe"
       },
       "install_type": {
         "windows": "innosetup"
