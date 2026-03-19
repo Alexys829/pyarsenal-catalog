@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-19T16:32:56.629899800+00:00",
+  "updated_at": "2026-03-19T16:35:27.106853+00:00",
   "tools": [
     {
       "id": "py-converter",
@@ -15,8 +15,8 @@
         "windows"
       ],
       "asset_patterns": {
-        "linux": "PyConverter-{version}-linux-x86_64.AppImage",
-        "windows": "PyConverter-{version}-windows-x86_64.exe"
+        "windows": "PyConverter-{version}-windows-x86_64.exe",
+        "linux": "PyConverter-{version}-linux-x86_64.AppImage"
       },
       "binary_name": {
         "windows": "Py-converter.exe",
@@ -64,6 +64,27 @@
       },
       "install_type": {
         "windows": "innosetup"
+      }
+    },
+    {
+      "id": "sysdel",
+      "name": "Sysdel",
+      "description": "Delete Windows reserved-name files (NUL, CON, PRN, AUX...) that can't be removed normally. GUI + CLI tool   using Win32 API.",
+      "category": "Utilities",
+      "icon": "icon.png",
+      "repo": "ArcademMan/sysdel",
+      "author": "ArcademMan",
+      "platforms": [
+        "windows"
+      ],
+      "asset_patterns": {
+        "windows": "SysDel-win64.zip"
+      },
+      "binary_name": {
+        "windows": "Sysdel.exe"
+      },
+      "install_type": {
+        "windows": "archive"
       }
     }
   ]
