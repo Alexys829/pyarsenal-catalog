@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-19T19:44:49.835315985+00:00",
+  "updated_at": "2026-03-19T20:38:59.878872386+00:00",
   "tools": [
     {
       "id": "py-converter",
@@ -15,8 +15,8 @@
         "windows"
       ],
       "asset_patterns": {
-        "windows": "PyConverter-{version}-windows-x86_64.exe",
-        "linux": "PyConverter-{version}-linux-x86_64.AppImage"
+        "linux": "PyConverter-{version}-linux-x86_64.AppImage",
+        "windows": "PyConverter-{version}-windows-x86_64.exe"
       },
       "binary_name": {
         "linux": "Py-converter.AppImage",
@@ -106,6 +106,25 @@
       "binary_name": {
         "windows": "Py-converter-v2.exe",
         "linux": "Py-converter-v2.AppImage"
+      },
+      "install_type": {}
+    },
+    {
+      "id": "zerotier_gui",
+      "name": "ZerotierGUI",
+      "description": "Lightweight desktop GUI for managing ZeroTier networks on Linux",
+      "category": "Utilities",
+      "icon": "icon.png",
+      "repo": "Alexys829/Zerotier_GUI",
+      "author": "Alexys829",
+      "platforms": [
+        "linux"
+      ],
+      "asset_patterns": {
+        "linux": "ZeroTier_GUI-x86_64.AppImage"
+      },
+      "binary_name": {
+        "linux": "Zerotier_gui.AppImage"
       },
       "install_type": {}
     }
