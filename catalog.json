@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-19T14:15:18.103122773+00:00",
+  "updated_at": "2026-03-19T14:16:22.523296277+00:00",
   "tools": [
     {
       "id": "py-converter",
       "name": "PyConverter",
-      "description": "Universal file converter: images, documents, data, audio, video. Includes 9 PDF tools, batch conversion, and drag & drop.\nTest",
+      "description": "Universal file converter: images, documents, data, audio, video. Includes 9 PDF tools, batch conversion, and drag & drop.",
       "category": "Utilities",
       "icon": "icon.png",
       "repo": "Alexys829/py-converter",
@@ -15,8 +15,8 @@
         "windows"
       ],
       "asset_patterns": {
-        "windows": "PyConverter-{version}-windows-x86_64.exe",
-        "linux": "PyConverter-{version}-linux-x86_64.AppImage"
+        "linux": "PyConverter-{version}-linux-x86_64.AppImage",
+        "windows": "PyConverter-{version}-windows-x86_64.exe"
       },
       "binary_name": {
         "windows": "PyConverter.exe",
