@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-19T20:38:59.878872386+00:00",
+  "updated_at": "2026-03-20T09:52:18.488686473+00:00",
   "tools": [
     {
       "id": "py-converter",
@@ -15,8 +15,8 @@
         "windows"
       ],
       "asset_patterns": {
-        "linux": "PyConverter-{version}-linux-x86_64.AppImage",
-        "windows": "PyConverter-{version}-windows-x86_64.exe"
+        "windows": "PyConverter-{version}-windows-x86_64.exe",
+        "linux": "PyConverter-{version}-linux-x86_64.AppImage"
       },
       "binary_name": {
         "linux": "Py-converter.AppImage",
@@ -100,12 +100,12 @@
         "windows"
       ],
       "asset_patterns": {
-        "linux": "PyConverter_{version}_amd64.AppImage",
-        "windows": "PyConverter_{version}_x64-setup.exe"
+        "windows": "PyConverter_{version}_x64-setup.exe",
+        "linux": "PyConverter_{version}_amd64.AppImage"
       },
       "binary_name": {
-        "windows": "Py-converter-v2.exe",
-        "linux": "Py-converter-v2.AppImage"
+        "linux": "Py-converter-v2.AppImage",
+        "windows": "Py-converter-v2.exe"
       },
       "install_type": {}
     },
@@ -125,6 +125,25 @@
       },
       "binary_name": {
         "linux": "Zerotier_gui.AppImage"
+      },
+      "install_type": {}
+    },
+    {
+      "id": "quantumhub",
+      "name": "QuantumHub",
+      "description": "All-in-one Linux system & Docker management desktop app — monitor CPU, RAM, temps, containers, services, firewall, VMs and more. PyQt6 + SSH remote support.",
+      "category": "Utilities",
+      "icon": "icon.png",
+      "repo": "Alexys829/QuantumHub",
+      "author": "Alexys829",
+      "platforms": [
+        "linux"
+      ],
+      "asset_patterns": {
+        "linux": "QuantumHub-{version}-x86_64.AppImage"
+      },
+      "binary_name": {
+        "linux": "Quantumhub.AppImage"
       },
       "install_type": {}
     }
