@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-20T19:47:40.884444900+00:00",
+  "updated_at": "2026-03-20T22:01:47.589695500+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -85,8 +85,8 @@
         "linux": "PyConverter_{version}_amd64.AppImage"
       },
       "binary_name": {
-        "linux": "Py-converter-v2.AppImage",
-        "windows": "Py-converter-v2.exe"
+        "windows": "Py-converter-v2.exe",
+        "linux": "Py-converter-v2.AppImage"
       },
       "install_type": {},
       "tags": []
@@ -129,6 +129,28 @@
         "linux": "Quantumhub.AppImage"
       },
       "install_type": {},
+      "tags": []
+    },
+    {
+      "id": "pylanshare",
+      "name": "PyLanShare",
+      "description": "Real-time file sync between two machines over LAN via WebSocket, with optional TLS and password   authentication.",
+      "category": "Utilities",
+      "icon": "icon.png",
+      "repo": "ArcademMan/PyLanShare",
+      "author": "ArcademMan",
+      "platforms": [
+        "windows"
+      ],
+      "asset_patterns": {
+        "windows": "PyLanShare_Setup_{version}.exe"
+      },
+      "binary_name": {
+        "windows": "Pylanshare.exe"
+      },
+      "install_type": {
+        "windows": "innosetup"
+      },
       "tags": []
     }
   ]
