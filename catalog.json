@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-20T22:01:47.589695500+00:00",
+  "updated_at": "2026-03-21T09:32:17.685573964+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -88,7 +88,9 @@
         "windows": "Py-converter-v2.exe",
         "linux": "Py-converter-v2.AppImage"
       },
-      "install_type": {},
+      "install_type": {
+        "windows": "innosetup"
+      },
       "tags": []
     },
     {
