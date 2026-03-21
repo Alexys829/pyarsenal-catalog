@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-21T09:32:17.685573964+00:00",
+  "updated_at": "2026-03-21T09:34:14.761565294+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -65,31 +65,6 @@
       },
       "install_type": {
         "windows": "archive"
-      },
-      "tags": []
-    },
-    {
-      "id": "py-converter-v2",
-      "name": "PyConverter2",
-      "description": "Universal file converter (Tauri + SolidJS + Python FastAPI)",
-      "category": "Utilities",
-      "icon": "icon.png",
-      "repo": "Alexys829/py-converter-v2",
-      "author": "Alexys829",
-      "platforms": [
-        "linux",
-        "windows"
-      ],
-      "asset_patterns": {
-        "windows": "PyConverter_{version}_x64-setup.exe",
-        "linux": "PyConverter_{version}_amd64.AppImage"
-      },
-      "binary_name": {
-        "windows": "Py-converter-v2.exe",
-        "linux": "Py-converter-v2.AppImage"
-      },
-      "install_type": {
-        "windows": "innosetup"
       },
       "tags": []
     },
