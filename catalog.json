@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-21T09:34:59.245578357+00:00",
+  "updated_at": "2026-03-21T10:05:18.451300034+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -143,15 +143,15 @@
         "windows"
       ],
       "asset_patterns": {
-        "windows": "PyConverter_{version}_x64-setup.exe",
-        "linux": "PyConverter_{version}_amd64.AppImage"
+        "linux": "PyConverter_{version}_amd64.AppImage",
+        "windows": "PyConverter_{version}_x64-setup.exe"
       },
       "binary_name": {
         "windows": "Py-converter-v2.exe",
         "linux": "Py-converter-v2.AppImage"
       },
       "install_type": {
-        "windows": "innosetup"
+        "windows": "tauri"
       },
       "tags": []
     }
