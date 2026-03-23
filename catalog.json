@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-23T09:46:21.943227607+00:00",
+  "updated_at": "2026-03-23T10:05:16.214132509+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -143,12 +143,37 @@
         "windows"
       ],
       "asset_patterns": {
-        "linux": "PyPDFTools-x86_64.AppImage",
-        "windows": "PyPDFTools_Setup.exe"
+        "windows": "PyPDFTools_Setup.exe",
+        "linux": "PyPDFTools-x86_64.AppImage"
       },
       "binary_name": {
         "linux": "Py-pdf-tools.AppImage",
         "windows": "Py-pdf-tools.exe"
+      },
+      "install_type": {
+        "windows": "innosetup"
+      },
+      "tags": []
+    },
+    {
+      "id": "py-converter",
+      "name": "PyConverter",
+      "description": "PyConverter - Universal cross-platform file converter (images, documents, data, audio, video, PDF tools)",
+      "category": "Utilities",
+      "icon": "icon.png",
+      "repo": "Alexys829/py-converter",
+      "author": "Alexys829",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "asset_patterns": {
+        "linux": "PyConverter-x86_64.AppImage",
+        "windows": "PyConverter_Setup.exe"
+      },
+      "binary_name": {
+        "linux": "Py-converter.AppImage",
+        "windows": "Py-converter.exe"
       },
       "install_type": {
         "windows": "innosetup"
