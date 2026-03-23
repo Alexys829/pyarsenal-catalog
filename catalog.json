@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-23T09:15:03.680786186+00:00",
+  "updated_at": "2026-03-23T09:46:21.943227607+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -124,6 +124,31 @@
       },
       "binary_name": {
         "windows": "Pylanshare.exe"
+      },
+      "install_type": {
+        "windows": "innosetup"
+      },
+      "tags": []
+    },
+    {
+      "id": "py-pdf-tools",
+      "name": "PyPdfTools",
+      "description": "Universal PDF toolkit (merge, split, rotate, compress, encrypt, page numbers, and more)",
+      "category": "Utilities",
+      "icon": "icon.png",
+      "repo": "Alexys829/py-pdf-tools",
+      "author": "Alexys829",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "asset_patterns": {
+        "linux": "PyPDFTools-x86_64.AppImage",
+        "windows": "PyPDFTools_Setup.exe"
+      },
+      "binary_name": {
+        "linux": "Py-pdf-tools.AppImage",
+        "windows": "Py-pdf-tools.exe"
       },
       "install_type": {
         "windows": "innosetup"
