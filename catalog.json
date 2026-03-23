@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-23T10:05:16.214132509+00:00",
+  "updated_at": "2026-03-23T23:11:53.759882+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -172,11 +172,33 @@
         "windows": "PyConverter_Setup.exe"
       },
       "binary_name": {
-        "linux": "Py-converter.AppImage",
-        "windows": "Py-converter.exe"
+        "windows": "Py-converter.exe",
+        "linux": "Py-converter.AppImage"
       },
       "install_type": {
         "windows": "innosetup"
+      },
+      "tags": []
+    },
+    {
+      "id": "pygsc",
+      "name": "PyGSC",
+      "description": "A desktop IDE for writing Call of Duty: Black Ops III scripts using Python-like syntax, with real-time transpilation\n  to GSC/CSC, IntelliSense, linting, and a built-in API reference.",
+      "category": "Development",
+      "icon": "icon.png",
+      "repo": "ArcademMan/PyGSC",
+      "author": "ArcademMan",
+      "platforms": [
+        "windows"
+      ],
+      "asset_patterns": {
+        "windows": "PyGSC_{version}_x64-setup.exe"
+      },
+      "binary_name": {
+        "windows": "Pygsc.exe"
+      },
+      "install_type": {
+        "windows": "tauri"
       },
       "tags": []
     }
