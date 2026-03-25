@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-25T08:17:33.209073017+00:00",
+  "updated_at": "2026-03-25T08:20:39.865762910+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -168,12 +168,12 @@
         "windows"
       ],
       "asset_patterns": {
-        "windows": "PyConverter_Setup.exe",
-        "linux": "PyConverter-x86_64.AppImage"
+        "linux": "PyConverter-x86_64.AppImage",
+        "windows": "PyConverter_Setup.exe"
       },
       "binary_name": {
-        "windows": "Py-converter.exe",
-        "linux": "Py-converter.AppImage"
+        "linux": "Py-converter.AppImage",
+        "windows": "Py-converter.exe"
       },
       "install_type": {
         "windows": "innosetup"
@@ -215,12 +215,12 @@
         "windows"
       ],
       "asset_patterns": {
-        "windows": "Nextcloud-{version}-x64.msi",
-        "linux": "Nextcloud-{version}-x86_64.AppImage"
+        "linux": "Nextcloud-{version}-x86_64.AppImage",
+        "windows": "Nextcloud-{version}-x64.msi"
       },
       "binary_name": {
-        "linux": "Desktop.AppImage",
-        "windows": "Nextcloud-33.0.0-x64.msi"
+        "windows": "Nextcloud-33.0.0-x64.msi",
+        "linux": "Nextcloud-{version}-x86_64.AppImage"
       },
       "install_type": {},
       "tags": []
