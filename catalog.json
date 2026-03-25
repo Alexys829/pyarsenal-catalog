@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-23T23:11:53.759882+00:00",
+  "updated_at": "2026-03-25T08:17:33.209073017+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -168,8 +168,8 @@
         "windows"
       ],
       "asset_patterns": {
-        "linux": "PyConverter-x86_64.AppImage",
-        "windows": "PyConverter_Setup.exe"
+        "windows": "PyConverter_Setup.exe",
+        "linux": "PyConverter-x86_64.AppImage"
       },
       "binary_name": {
         "windows": "Py-converter.exe",
@@ -200,6 +200,29 @@
       "install_type": {
         "windows": "tauri"
       },
+      "tags": []
+    },
+    {
+      "id": "nextcloud-files",
+      "name": "Nextcloud Files",
+      "description": "💻 Desktop sync client for Nextcloud",
+      "category": "Utilities",
+      "icon": "icon.png",
+      "repo": "nextcloud-releases/desktop",
+      "author": "nextcloud-releases",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "asset_patterns": {
+        "windows": "Nextcloud-{version}-x64.msi",
+        "linux": "Nextcloud-{version}-x86_64.AppImage"
+      },
+      "binary_name": {
+        "linux": "Desktop.AppImage",
+        "windows": "Nextcloud-33.0.0-x64.msi"
+      },
+      "install_type": {},
       "tags": []
     }
   ]
