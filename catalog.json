@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-25T08:22:34.163951394+00:00",
+  "updated_at": "2026-03-27T08:40:13.827673748+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -147,8 +147,8 @@
         "linux": "PyPDFTools-x86_64.AppImage"
       },
       "binary_name": {
-        "windows": "Py-pdf-tools.exe",
-        "linux": "Py-pdf-tools.AppImage"
+        "linux": "Py-pdf-tools.AppImage",
+        "windows": "Py-pdf-tools.exe"
       },
       "install_type": {
         "windows": "innosetup"
@@ -178,7 +178,9 @@
       "install_type": {
         "windows": "innosetup"
       },
-      "tags": []
+      "tags": [
+        "File Converter"
+      ]
     },
     {
       "id": "pygsc",
