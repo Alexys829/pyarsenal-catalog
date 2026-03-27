@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-27T09:18:57.752246225+00:00",
+  "updated_at": "2026-03-27T09:23:37.948019492+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -172,8 +172,8 @@
         "windows": "PyConverter_Setup.exe"
       },
       "binary_name": {
-        "linux": "Py-converter.AppImage",
-        "windows": "Py-converter.exe"
+        "windows": "Py-converter.exe",
+        "linux": "Py-converter.AppImage"
       },
       "install_type": {
         "windows": "innosetup"
@@ -210,7 +210,7 @@
     {
       "id": "winrar-60-preactivated",
       "name": "Winrar 6.0 preactivated",
-      "description": "",
+      "description": "Pass: aether",
       "url": "https://drive.google.com/uc?export=download&id=1vbOPB8qlTYJ5d3QRF9UbZtLkA-6qSdob",
       "icon": "winrar-60-preactivated.png",
       "filename": "WinRAR",
