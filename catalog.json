@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-27T08:40:42.705463547+00:00",
+  "updated_at": "2026-03-27T09:18:57.752246225+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -168,8 +168,8 @@
         "windows"
       ],
       "asset_patterns": {
-        "windows": "PyConverter_Setup.exe",
-        "linux": "PyConverter-x86_64.AppImage"
+        "linux": "PyConverter-x86_64.AppImage",
+        "windows": "PyConverter_Setup.exe"
       },
       "binary_name": {
         "linux": "Py-converter.AppImage",
@@ -204,6 +204,19 @@
         "windows": "tauri"
       },
       "tags": []
+    }
+  ],
+  "links": [
+    {
+      "id": "winrar-60-preactivated",
+      "name": "Winrar 6.0 preactivated",
+      "description": "",
+      "url": "https://drive.google.com/uc?export=download&id=1vbOPB8qlTYJ5d3QRF9UbZtLkA-6qSdob",
+      "icon": "winrar-60-preactivated.png",
+      "filename": "WinRAR",
+      "category": "Other",
+      "tags": [],
+      "added_by": ""
     }
   ]
 }
