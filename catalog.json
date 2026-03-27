@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-27T08:40:13.827673748+00:00",
+  "updated_at": "2026-03-27T08:40:42.705463547+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -147,8 +147,8 @@
         "linux": "PyPDFTools-x86_64.AppImage"
       },
       "binary_name": {
-        "linux": "Py-pdf-tools.AppImage",
-        "windows": "Py-pdf-tools.exe"
+        "windows": "Py-pdf-tools.exe",
+        "linux": "Py-pdf-tools.AppImage"
       },
       "install_type": {
         "windows": "innosetup"
@@ -168,18 +168,19 @@
         "windows"
       ],
       "asset_patterns": {
-        "linux": "PyConverter-x86_64.AppImage",
-        "windows": "PyConverter_Setup.exe"
+        "windows": "PyConverter_Setup.exe",
+        "linux": "PyConverter-x86_64.AppImage"
       },
       "binary_name": {
-        "windows": "Py-converter.exe",
-        "linux": "Py-converter.AppImage"
+        "linux": "Py-converter.AppImage",
+        "windows": "Py-converter.exe"
       },
       "install_type": {
         "windows": "innosetup"
       },
       "tags": [
-        "File Converter"
+        "File Converter",
+        "Python"
       ]
     },
     {
