@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-27T09:23:37.948019492+00:00",
+  "updated_at": "2026-03-30T22:20:30.602725300+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -172,8 +172,8 @@
         "windows": "PyConverter_Setup.exe"
       },
       "binary_name": {
-        "windows": "Py-converter.exe",
-        "linux": "Py-converter.AppImage"
+        "linux": "Py-converter.AppImage",
+        "windows": "Py-converter.exe"
       },
       "install_type": {
         "windows": "innosetup"
@@ -202,6 +202,32 @@
       },
       "install_type": {
         "windows": "tauri"
+      },
+      "tags": []
+    },
+    {
+      "id": "pybot",
+      "name": "PyBot",
+      "description": "Create your key and or mouse sequence and re-play them.",
+      "category": "Utilities",
+      "icon": "icon.png",
+      "repo": "ArcademMan/PyBot",
+      "author": "ArcademMan",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "asset_patterns": {
+        "windows": "PyBot_Setup_{version}.exe",
+        "linux": "PyBot-linux-x64.tar.gz"
+      },
+      "binary_name": {
+        "linux": "Pybot",
+        "windows": "Pybot.exe"
+      },
+      "install_type": {
+        "linux": "archive",
+        "windows": "innosetup"
       },
       "tags": []
     }
