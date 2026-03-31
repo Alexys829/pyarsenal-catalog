@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-30T22:20:30.602725300+00:00",
+  "updated_at": "2026-03-31T12:33:21.208967368+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -222,12 +222,12 @@
         "linux": "PyBot-linux-x64.tar.gz"
       },
       "binary_name": {
-        "linux": "Pybot",
+        "linux": "PyBot",
         "windows": "Pybot.exe"
       },
       "install_type": {
-        "linux": "archive",
-        "windows": "innosetup"
+        "windows": "innosetup",
+        "linux": "archive"
       },
       "tags": []
     }
