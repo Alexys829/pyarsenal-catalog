@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-31T12:33:21.208967368+00:00",
+  "updated_at": "2026-04-01T22:36:28.320202+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -168,8 +168,8 @@
         "windows"
       ],
       "asset_patterns": {
-        "linux": "PyConverter-x86_64.AppImage",
-        "windows": "PyConverter_Setup.exe"
+        "windows": "PyConverter_Setup.exe",
+        "linux": "PyConverter-x86_64.AppImage"
       },
       "binary_name": {
         "linux": "Py-converter.AppImage",
@@ -222,12 +222,34 @@
         "linux": "PyBot-linux-x64.tar.gz"
       },
       "binary_name": {
-        "linux": "PyBot",
-        "windows": "Pybot.exe"
+        "windows": "Pybot.exe",
+        "linux": "PyBot"
       },
       "install_type": {
-        "windows": "innosetup",
-        "linux": "archive"
+        "linux": "archive",
+        "windows": "innosetup"
+      },
+      "tags": []
+    },
+    {
+      "id": "yugipy",
+      "name": "YugiPy",
+      "description": "Yu-Gi-Oh! card collection manager with camera scanning and Cardmarket price sync.",
+      "category": "Utilities",
+      "icon": "icon.png",
+      "repo": "ArcademMan/YugiPy",
+      "author": "ArcademMan",
+      "platforms": [
+        "windows"
+      ],
+      "asset_patterns": {
+        "windows": "YugiPy-Setup-{version}.exe"
+      },
+      "binary_name": {
+        "windows": "Yugipy.exe"
+      },
+      "install_type": {
+        "windows": "innosetup"
       },
       "tags": []
     }
