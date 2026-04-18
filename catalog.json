@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-04-01T22:36:28.320202+00:00",
+  "updated_at": "2026-04-18T16:09:32.275743157+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -168,12 +168,12 @@
         "windows"
       ],
       "asset_patterns": {
-        "windows": "PyConverter_Setup.exe",
-        "linux": "PyConverter-x86_64.AppImage"
+        "linux": "PyConverter-x86_64.AppImage",
+        "windows": "PyConverter_Setup.exe"
       },
       "binary_name": {
-        "linux": "Py-converter.AppImage",
-        "windows": "Py-converter.exe"
+        "windows": "Py-converter.exe",
+        "linux": "Py-converter.AppImage"
       },
       "install_type": {
         "windows": "innosetup"
@@ -265,6 +265,27 @@
       "category": "Other",
       "tags": [],
       "added_by": ""
+    }
+  ],
+  "third_party": [
+    {
+      "id": "075e916e8e50",
+      "name": "TEST",
+      "description": "",
+      "category": "",
+      "tags": [],
+      "icon": "",
+      "url_linux": "",
+      "url_windows": "",
+      "filename_linux": "",
+      "filename_windows": "",
+      "download_type_linux": "commands",
+      "download_type_windows": "installer",
+      "added_by": "",
+      "commands_linux": [
+        "sudo apt update",
+        "sudo apt upgrade"
+      ]
     }
   ]
 }
