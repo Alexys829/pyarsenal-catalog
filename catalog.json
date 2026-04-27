@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-04-18T16:09:32.275743157+00:00",
+  "updated_at": "2026-04-27T23:03:03.159458600+00:00",
   "tools": [
     {
       "id": "pyab",
@@ -143,8 +143,8 @@
         "windows"
       ],
       "asset_patterns": {
-        "windows": "PyPDFTools_Setup.exe",
-        "linux": "PyPDFTools-x86_64.AppImage"
+        "linux": "PyPDFTools-x86_64.AppImage",
+        "windows": "PyPDFTools_Setup.exe"
       },
       "binary_name": {
         "windows": "Py-pdf-tools.exe",
@@ -222,8 +222,8 @@
         "linux": "PyBot-linux-x64.tar.gz"
       },
       "binary_name": {
-        "windows": "Pybot.exe",
-        "linux": "PyBot"
+        "linux": "PyBot",
+        "windows": "Pybot.exe"
       },
       "install_type": {
         "linux": "archive",
@@ -252,6 +252,28 @@
         "windows": "innosetup"
       },
       "tags": []
+    },
+    {
+      "id": "keylife",
+      "name": "KeyLife",
+      "description": "keyboard usage tracker for Windows. Aggregate counts only",
+      "category": "Other",
+      "icon": "icon.png",
+      "repo": "ArcademMan/KeyLife",
+      "author": "ArcademMan",
+      "platforms": [
+        "windows"
+      ],
+      "asset_patterns": {
+        "windows": "KeyLife_Setup_{version}.exe"
+      },
+      "binary_name": {
+        "windows": "Keylife.exe"
+      },
+      "install_type": {
+        "windows": "innosetup"
+      },
+      "tags": []
     }
   ],
   "links": [
@@ -265,27 +287,6 @@
       "category": "Other",
       "tags": [],
       "added_by": ""
-    }
-  ],
-  "third_party": [
-    {
-      "id": "075e916e8e50",
-      "name": "TEST",
-      "description": "",
-      "category": "",
-      "tags": [],
-      "icon": "",
-      "url_linux": "",
-      "url_windows": "",
-      "filename_linux": "",
-      "filename_windows": "",
-      "download_type_linux": "commands",
-      "download_type_windows": "installer",
-      "added_by": "",
-      "commands_linux": [
-        "sudo apt update",
-        "sudo apt upgrade"
-      ]
     }
   ]
 }
